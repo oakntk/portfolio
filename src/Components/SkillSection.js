@@ -147,7 +147,7 @@ function SkillSection() {
                         </h2>
                         <img src={bgCircles} className="bgCircle" alt="" />
                     </div>
-                    <Grid container justify="center">
+                    <Grid container justify="center" style={{marginLeft:-100}}>
                         <SkillCard>
                             <SkillCardInnerCircle>
                                 <img src = {htmlicon} width="20"
@@ -174,7 +174,7 @@ function SkillSection() {
                                 <SkillCardLine2 />
                             </SkillCardBottom>
                         </SkillCard>
-                        <Grid container style={{marginLeft:500}}>
+                        <Grid container style={{marginLeft:400}}>
                         <SkillCard>
                             <SkillCardInnerCircle>
                             <img src = {cssicon} width="20"
@@ -205,8 +205,8 @@ function SkillSection() {
                         <Grid container style={{marginTop:300}}>
                         <SkillCard>
                         <SkillCardInnerCircle>
-                            <img src = {reacticon} width="20"
-                                style={{marginTop:4,marginLeft:5}}/>
+                            <img src = {reacticon} width="25"
+                                style={{marginTop:2,marginLeft:2}}/>
                             </SkillCardInnerCircle>
                             <SkillCardInnerBox>
                                 <Text>React</Text>
@@ -230,7 +230,7 @@ function SkillSection() {
                             </SkillCardBottom>
                         </SkillCard>
                         </Grid>
-                        <Grid container style={{marginLeft:500}}>
+                        <Grid container style={{marginLeft:400}}>
                         <SkillCard>
                         <SkillCardInnerCircle>
                             <img src = {uiicon} width="20"
